@@ -1,0 +1,183 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-image: url("../images/bgc.png");
+    color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+}
+
+
+/* Container */
+
+.container {
+    max-width: 1333px;
+    margin: 0 auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+/* section */
+.bg-stat {
+    background: #121212;
+}
+
+
+/* navbar */
+
+.navbar {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__list {
+    display: flex;
+}
+
+.menu__item {
+    list-style: none;
+    margin-left: 56px;
+}
+
+.menu__item a {
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.kabinet__btn {
+    background: rgb(200,154,252);
+    background: linear-gradient(90deg, rgba(200,154,252,1) 0%, rgba(124,106,250,1) 100%);
+
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+
+    cursor: pointer;
+
+}
+
+/* Intro */
+
+.intro {
+    background: url(../images/main-screen__bgc.png) center no-repeat;
+    background-size: cover;
+
+    height: 100vh;
+    width: 100%;
+}
+
+.intro__text { 
+    font-size: 64px;
+    font-weight: 700;
+    margin-top: 180px;
+}
+
+.intro__time {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 500px;
+    margin-top: 50px;
+}
+
+.time__item {
+    background-color: #121212;
+    padding: 20px 30px;
+
+    text-align: center;
+}
+
+.time { 
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.day { 
+    font-size: 16px;
+    font-weight: 400;
+
+    opacity: 0.4;
+}
+
+/* Statistic */
+.statistic {
+    display: flex;
+    justify-content: space-between;
+    padding: 36px 0;
+}
+
+.people__text {
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.4;
+    color: #fff;
+    float: left;
+}
+
+.people__text:first-child {
+    margin-bottom: 10px;
+}
+
+.buy__btn {
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.phone__number {
+    margin: 0 30px;
+    float: right;
+    font-size: 16px;
+}
+
+.money {
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+}
+
+.money__text {
+    display: block;
+    width: 330px;
+}
+
+.money__goal {
+    margin-top: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    font-size: 16px;
+    opacity: 0.4;
+}
+
+/* progress bar */
+.progress {
+    height: 6px;
+    background-color: #fff;
+
+}
